@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fon {
+  background: url("../img/fon_01.png") 0 0/100% 100% no-repeat, url("../img/fon_04.png") 0 0/100% 100% no-repeat, url("../img/fon_05.png") 0 100%/100% 100% no-repeat;
+  margin: 0 auto;
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+}
+.fon__text {
+  color: #ffffff;
+  padding-left: 65px;
+  padding-bottom: 20px;
+}
+.fon__text-size_h {
+  font-size: 120px;
+  padding-top: 40px;
+}
+.fon__text-size_p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.fon__text-link {
+  color: #ffc600;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.color-text {
+  color: #ffc600;
+}
+
+.head {
+  width: 100%;
+  max-width: 1198px;
+  height: 654px;
+  background: url("../img/head.png") top/cover no-repeat;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

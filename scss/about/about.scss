@@ -1,0 +1,23 @@
+@import "../utils/variables";
+
+.about {
+  width: 100%;
+  max-width: 1198px;
+  margin: 0 auto;
+  background-color: $color-1;
+
+  &__title {
+    padding: 75px 140px;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 45px;
+
+    &-grey {
+      color: $color-3;
+      font-size: 35px;
+      font-weight: 500;
+      padding-bottom: -20px;
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,3 +1,7 @@
+@import "utils/variables";
+@import "about/about";
+
+
 body {
   margin: 0;
   padding: 0;
@@ -13,13 +17,13 @@ body {
   url("../img/fon_04.png") 0 0/100% 100% no-repeat,
   url("../img/fon_05.png") 0 100%/100% 100% no-repeat;
   margin: 0 auto;
-  font-family: "Helvetica Neue";
+  font-family: $font-family;
   font-weight: 700;
 
   &__text {
-    color: #ffffff;
-    padding-left: 65px;
-    padding-bottom: 20px;
+    color: $color-1;
+    padding-left: 80px;
+    padding-bottom: 30px;
 
     &-size_h {
       font-size: 120px;
@@ -32,7 +36,7 @@ body {
     }
 
     &-link {
-      color: #ffc600;
+      color: $color-2;
       text-decoration: none;
       font-weight: 400;
     }
@@ -40,7 +44,7 @@ body {
 }
 
 .color-text {
-  color: #ffc600;
+  color: $color-2;
 }
 
 .head {
@@ -49,6 +53,36 @@ body {
   height: 654px;
   background: url("../img/head.png") top/cover no-repeat;
   margin: 0 auto;
+
+  &__title {
+    color: $color-1;
+    padding: 50px 35px;
+    font-size: 50px;
+  }
+
+
+  .list {
+    display: flex;
+    padding: 0 20px;
+    margin-left: 15px;
+
+    &__item {
+      list-style-type: none;
+      margin-right: 35px;
+
+      &:nth-child(2){
+        color: $color-1;
+        border-bottom: 2px solid $color-2;
+      }
+    }
+
+    &__link {
+      text-decoration: none;
+      color: $color-2;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
 }
 
 

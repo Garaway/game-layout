@@ -15,6 +15,10 @@
     font-size: 70px;
     font-weight: 500;
     line-height: 45px;
+    font-stretch: normal;
+    font-style: normal;
+    //line-height: normal;
+    letter-spacing: normal;
 
     &-grey {
       color: $color-3;
@@ -22,7 +26,15 @@
       font-weight: 500;
       margin-left: 10px;
     }
+
+    &-border_bottom {
+      border-bottom: 2px solid $color-3;
+      width: 117px;
+      height: 1px;
+      margin: 10px 0 0 145px;
+    }
   }
+
 
   &__description {
     width: 597px;
@@ -34,12 +46,6 @@
     margin: 10px;
     text-align: justify;
 
-    &-border {
-      border-left: 2px solid $color-3;
-      padding-left: 10px;
-      line-height: 10px;
-    }
-
 
     &-i {
       font-size: 16px;
@@ -47,4 +53,19 @@
     }
   }
 
+  &__border-left {
+    border-left: 2px solid $color-3;
+    padding-left: 10px;
+    line-height: 15px;
+    height: 150px;
+    margin-top: 60px;
+  }
+
+  &__delineation {
+    display: flex;
+
+    &-img {
+      position: relative;
+    }
+  }
 }

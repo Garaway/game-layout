@@ -183,15 +183,15 @@ body {
   list-style-type: none;
   margin-right: 35px;
 }
-.head .list__item:nth-child(2) {
-  color: #ffffff;
-  border-bottom: 2px solid #ffc600;
-}
 .head .list__link {
   text-decoration: none;
   color: #ffc600;
   font-size: 16px;
   font-weight: 400;
+}
+.head .list__link-color {
+  color: #ffffff;
+  border-bottom: 2px solid #ffc600;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -15,10 +15,6 @@
     font-size: 70px;
     font-weight: 500;
     line-height: 45px;
-    font-stretch: normal;
-    font-style: normal;
-    //line-height: normal;
-    letter-spacing: normal;
 
     &-grey {
       color: $color-3;
@@ -50,6 +46,7 @@
     &-i {
       font-size: 16px;
       color: $color-4;
+      font-style: italic;
     }
   }
 
@@ -62,10 +59,45 @@
   }
 
   &__delineation {
+    width: 885px;
+    margin: 0 auto;
     display: flex;
 
-    &-img {
-      position: relative;
+    &_section {
+      width: 231px;
+      text-align: center;
+      padding: 80px 40px;
+
+      &_img {
+        position: relative;
+        width: 57px;
+        height: 57px;
+      }
+
+      &_img_gamepad {
+        width: 30px;
+        height: 20px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: -43px;
+      }
+
+      &-title {
+        padding-top: 15px;
+        font-size: 18px;
+        font-weight: normal;
+        color: $color-4;
+      }
+
+      &-text {
+        width: 240px;
+        font-size: 13px;
+        color: $color-3;
+        line-height: normal;
+        margin-top: 15px;
+        font-weight: 400;
+        font-style: italic;
+      }
     }
   }
 }

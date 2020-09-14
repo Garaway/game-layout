@@ -12,9 +12,6 @@
   font-size: 70px;
   font-weight: 500;
   line-height: 45px;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
 }
 .about__title-grey {
   color: #9d9d9d;
@@ -41,6 +38,7 @@
 .about__description-i {
   font-size: 16px;
   color: #000000;
+  font-style: italic;
 }
 .about__border-left {
   border-left: 2px solid #9d9d9d;
@@ -50,15 +48,84 @@
   margin-top: 60px;
 }
 .about__delineation {
+  width: 885px;
+  margin: 0 auto;
   display: flex;
 }
-.about__delineation-img {
+.about__delineation_section {
+  width: 231px;
+  text-align: center;
+  padding: 80px 40px;
+}
+.about__delineation_section_img {
   position: relative;
+  width: 57px;
+  height: 57px;
+}
+.about__delineation_section_img_gamepad {
+  width: 30px;
+  height: 20px;
+  position: absolute;
+  margin-top: 18px;
+  margin-left: -43px;
+}
+.about__delineation_section-title {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
+}
+.about__delineation_section-text {
+  width: 240px;
+  font-size: 13px;
+  color: #9d9d9d;
+  line-height: normal;
+  margin-top: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.features {
+  background-color: white;
+  width: 100%;
+  max-width: 1198px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.features__title {
+  font-size: 25px;
+  padding: 100px 0 0 81px;
+}
+.features .menu {
+  display: flex;
+  padding: 0 20px 40px;
+  margin: 20px 0 0 60px;
+}
+.features .menu__item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.features .menu__link {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+.features .menu__link-border {
+  border-bottom: 2px solid #ffc600;
+  width: 43px;
+  margin: 0 auto;
+}
+.features__gallery {
+  width: 1198px;
+  display: flex;
 }
 
 body {
   margin: 0;
   padding: 0;
+  font-family: "Helvetica Neue";
 }
 
 * {
@@ -69,7 +136,6 @@ body {
 .fon {
   background-color: #222222;
   margin: 0 auto;
-  font-family: "Helvetica Neue";
   font-weight: 700;
 }
 .fon__text {
@@ -101,7 +167,6 @@ body {
   height: 654px;
   background: url("../img/head.png") top/cover no-repeat;
   margin: 0 auto;
-  font-family: "Helvetica Neue";
 }
 .head__title {
   color: #ffffff;
@@ -112,6 +177,7 @@ body {
   display: flex;
   padding: 0 20px;
   margin-left: 18px;
+  margin-top: -20px;
 }
 .head .list__item {
   list-style-type: none;

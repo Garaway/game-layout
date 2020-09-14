@@ -1,10 +1,12 @@
 @import "utils/variables";
 @import "about/about";
+@import "features/features";
 
 
 body {
   margin: 0;
   padding: 0;
+  font-family: $font-family;
 }
 
 * {
@@ -15,7 +17,6 @@ body {
 .fon {
   background-color: #222222;
   margin: 0 auto;
-  font-family: $font-family;
   font-weight: 700;
 
   &__text {
@@ -51,7 +52,6 @@ body {
   height: 654px;
   background: url("../img/head.png") top/cover no-repeat;
   margin: 0 auto;
-  font-family: $font-family;
 
   &__title {
     color: $color-1;
@@ -64,6 +64,7 @@ body {
     display: flex;
     padding: 0 20px;
     margin-left: 18px;
+    margin-top: -20px;
 
     &__item {
       list-style-type: none;

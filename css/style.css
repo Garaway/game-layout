@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Myriad Pro Bold";
+  src: url("../font/img-font/Myriad-Pro-Bold_31631.ttf");
+}
+@font-face {
+  font-family: "Myriad Pro Bold";
+  src: url("../font/img-font/Myriad-Pro-Bold_31631.ttf");
+}
 .about {
   width: 100%;
   max-width: 1198px;
@@ -85,6 +93,10 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Myriad Pro Bold";
+  src: url("../font/img-font/Myriad-Pro-Bold_31631.ttf");
+}
 .features {
   background-color: white;
   width: 100%;
@@ -125,7 +137,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica Neue";
+  font-family: "Myriad Pro Bold";
 }
 
 * {

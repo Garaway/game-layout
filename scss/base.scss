@@ -6,7 +6,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: $font-family;
 }
 
 * {
@@ -20,6 +19,7 @@ body {
   font-weight: 700;
 
   &__text {
+    font-family: $font-family;
     color: $color-1;
     padding-left: 80px;
     padding-bottom: 30px;
@@ -47,6 +47,7 @@ body {
 }
 
 .head {
+  font-family: $font-family;
   width: 100%;
   max-width: 1198px;
   height: 654px;

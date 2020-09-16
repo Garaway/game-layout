@@ -3,5 +3,14 @@
 @font-face {
   font-family: myriad-pro, sans-serif;
   font-style: normal;
-  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Light';
+  src: url('MyriadPro-Light.eot');
+  src: url('MyriadPro-Light.eot?#iefix') format('embedded-opentype'),
+  url('MyriadPro-Light.woff') format('woff'),
+  url('MyriadPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

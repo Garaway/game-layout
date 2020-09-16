@@ -1,12 +1,24 @@
 @font-face {
   font-family: myriad-pro, sans-serif;
   font-style: normal;
-  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Pro Light";
+  src: url("MyriadPro-Light.eot");
+  src: url("MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Light.woff") format("woff"), url("MyriadPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: myriad-pro, sans-serif;
   font-style: normal;
-  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Pro Light";
+  src: url("MyriadPro-Light.eot");
+  src: url("MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Light.woff") format("woff"), url("MyriadPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 .about {
   width: 100%;
@@ -18,9 +30,10 @@
   display: flex;
 }
 .about__title {
+  font-family: "Myriad Pro Light";
   padding: 75px 140px;
   font-size: 70px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 45px;
 }
 .about__title-grey {
@@ -66,6 +79,7 @@
   width: 231px;
   text-align: center;
   padding: 80px 40px;
+  font-family: myriad-pro, sans-serif;
 }
 .about__delineation_section_img {
   position: relative;
@@ -82,7 +96,8 @@
 .about__delineation_section-title {
   padding-top: 15px;
   font-size: 18px;
-  font-weight: normal;
+  font-family: "Myriad Pro Light";
+  font-weight: 400;
   color: #000000;
 }
 .about__delineation_section-text {
@@ -98,7 +113,13 @@
 @font-face {
   font-family: myriad-pro, sans-serif;
   font-style: normal;
-  font-weight: 300;
+}
+@font-face {
+  font-family: "Myriad Pro Light";
+  src: url("MyriadPro-Light.eot");
+  src: url("MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Light.woff") format("woff"), url("MyriadPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 .features {
   background-color: white;
@@ -106,15 +127,18 @@
   max-width: 1198px;
   margin: 0 auto;
   padding-bottom: 40px;
+  font-family: "Myriad Pro Light";
 }
 .features__title {
   font-size: 25px;
   padding: 100px 0 0 81px;
+  font-weight: 400;
 }
 .features .menu {
   display: flex;
   padding: 0 20px 40px;
   margin: 20px 0 0 60px;
+  font-weight: 400;
 }
 .features .menu__item {
   list-style-type: none;
@@ -140,7 +164,6 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: myriad-pro, sans-serif;
 }
 
 * {
@@ -154,6 +177,7 @@ body {
   font-weight: 700;
 }
 .fon__text {
+  font-family: myriad-pro, sans-serif;
   color: #ffffff;
   padding-left: 80px;
   padding-bottom: 30px;
@@ -177,6 +201,7 @@ body {
 }
 
 .head {
+  font-family: myriad-pro, sans-serif;
   width: 100%;
   max-width: 1198px;
   height: 654px;

@@ -1,12 +1,10 @@
 @font-face {
-  font-family: myriad-pro, sans-serif;
-  font-style: normal;
-  font-weight: 300;
+  font-family: "Myriad Pro Bold";
+  src: url("../../font/Myriad-Pro-Bold_31631.ttf");
 }
 @font-face {
-  font-family: myriad-pro, sans-serif;
-  font-style: normal;
-  font-weight: 300;
+  font-family: "Myriad Pro Bold";
+  src: url("../../font/Myriad-Pro-Bold_31631.ttf");
 }
 .about {
   width: 100%;
@@ -96,9 +94,8 @@
 }
 
 @font-face {
-  font-family: myriad-pro, sans-serif;
-  font-style: normal;
-  font-weight: 300;
+  font-family: "Myriad Pro Bold";
+  src: url("../../font/Myriad-Pro-Bold_31631.ttf");
 }
 .features {
   background-color: white;
@@ -140,7 +137,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: myriad-pro, sans-serif;
+  font-family: "Myriad Pro Bold";
 }
 
 * {
@@ -209,4 +206,4 @@ body {
   border-bottom: 2px solid #ffc600;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */

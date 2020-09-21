@@ -171,26 +171,26 @@ body {
   padding: 0;
 }
 
-.fon {
+.background {
   background-color: #222222;
   margin: 0 auto;
   font-weight: 700;
 }
-.fon__text {
+.background__text {
   font-family: myriad-pro, sans-serif;
   color: #ffffff;
   padding-left: 80px;
   padding-bottom: 30px;
 }
-.fon__text-size_h {
+.background__text-size_h {
   font-size: 120px;
   padding-top: 40px;
 }
-.fon__text-size_p {
+.background__text-size_p {
   font-size: 16px;
   font-weight: 400;
 }
-.fon__text-link {
+.background__text-link {
   color: #ffc600;
   text-decoration: none;
   font-weight: 400;

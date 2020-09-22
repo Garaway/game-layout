@@ -31,22 +31,27 @@
 }
 .about__title {
   font-family: "Myriad Pro Light";
-  padding: 75px 140px;
-  font-size: 70px;
-  font-weight: 400;
+  margin: 70px 140px;
   line-height: 45px;
 }
 .about__title-grey {
   color: #9d9d9d;
   font-size: 35px;
-  font-weight: 500;
   margin-left: 10px;
 }
-.about__title-border_bottom {
-  border-bottom: 2px solid #9d9d9d;
-  width: 117px;
+.about__title-black {
+  font-size: 70px;
+}
+.about__title-black::first-letter {
+  color: #ffc600;
+}
+.about__title::after {
+  content: "";
+  display: block;
   height: 1px;
-  margin: 10px 0 0 145px;
+  width: 117px;
+  margin-left: 130px;
+  background: #9d9d9d;
 }
 .about__description {
   width: 597px;
@@ -54,29 +59,31 @@
   color: #9d9d9d;
   font-size: 15px;
   font-weight: 400;
-  padding: 40px 0 10px 0;
+  padding: 40px 0 10px 10px;
   margin: 10px;
   text-align: justify;
 }
-.about__description-i {
+.about__description:before {
+  content: "";
+  display: block;
+  height: 140px;
+  margin-top: 10px;
+  width: 1px;
+  background: #9d9d9d;
+  position: absolute;
+  left: 650px;
+}
+.about__description_font-weight {
   font-size: 16px;
   color: #000000;
   font-style: italic;
 }
-.about__border-left {
-  border-left: 2px solid #9d9d9d;
-  padding-left: 10px;
-  line-height: 15px;
-  height: 150px;
-  margin-top: 60px;
-}
 .about__delineation {
-  width: 885px;
   margin: 0 auto;
+  justify-content: center;
   display: flex;
 }
 .about__delineation_section {
-  width: 231px;
   text-align: center;
   padding: 80px 40px;
   font-family: myriad-pro, sans-serif;
@@ -86,7 +93,7 @@
   width: 57px;
   height: 57px;
 }
-.about__delineation_section_img_gamepad {
+.about__delineation_section_img-gamepad {
   width: 30px;
   height: 20px;
   position: absolute;

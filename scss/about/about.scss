@@ -12,23 +12,30 @@
 
   &__title {
     font-family: $font-family-2;
-    padding: 75px 140px;
-    font-size: 70px;
-    font-weight: 400;
+    margin: 70px 140px;
     line-height: 45px;
 
     &-grey {
       color: $color-3;
       font-size: 35px;
-      font-weight: 500;
       margin-left: 10px;
     }
 
-    &-border_bottom {
-      border-bottom: 2px solid $color-3;
-      width: 117px;
+    &-black {
+      font-size: 70px;
+    }
+
+    &-black::first-letter {
+      color: $color-2;
+    }
+
+    &::after {
+      content: '';
+      display: block;
       height: 1px;
-      margin: 10px 0 0 145px;
+      width: 117px;
+      margin-left: 130px;
+      background: $color-3;
     }
   }
 
@@ -39,33 +46,36 @@
     color: $color-3;
     font-size: 15px;
     font-weight: 400;
-    padding: 40px 0 10px 0;
+    padding: 40px 0 10px 10px;
     margin: 10px;
     text-align: justify;
 
+    &:before {
+      content: '';
+      display: block;
+      height: 140px;
+      margin-top: 10px;
+      width: 1px;
+      background: $color-3;
+      position: absolute;
+      left: 650px;
+    }
 
-    &-i {
+
+    &_font-weight {
       font-size: 16px;
       color: $color-4;
       font-style: italic;
     }
   }
 
-  &__border-left {
-    border-left: 2px solid $color-3;
-    padding-left: 10px;
-    line-height: 15px;
-    height: 150px;
-    margin-top: 60px;
-  }
 
   &__delineation {
-    width: 885px;
     margin: 0 auto;
+    justify-content: center;
     display: flex;
 
     &_section {
-      width: 231px;
       text-align: center;
       padding: 80px 40px;
       font-family: $font-family;
@@ -76,7 +86,7 @@
         height: 57px;
       }
 
-      &_img_gamepad {
+      &_img-gamepad {
         width: 30px;
         height: 20px;
         position: absolute;

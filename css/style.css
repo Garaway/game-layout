@@ -138,36 +138,36 @@
 }
 .features__title {
   font-size: 25px;
-  padding: 100px 0 0 81px;
+  padding: 100px 0 0 80px;
   font-weight: 400;
 }
 .features__title::first-letter {
   color: #ffc600;
 }
-.features .menu {
-  display: flex;
+.features__menu {
   padding: 0 20px 40px;
   margin: 20px 0 0 60px;
   font-weight: 400;
 }
-.features .menu__item {
+.features__menu_list {
+  display: flex;
+}
+.features__menu_link {
   list-style-type: none;
   margin-right: 20px;
 }
-.features .menu__link {
+.features__menu_item {
   color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
 }
-.features .menu__link-border {
+.features__menu_item-active {
   border-bottom: 2px solid #ffc600;
-  width: 43px;
-  margin: 0 auto;
 }
 .features__gallery {
-  width: 1198px;
+  max-width: 1198px;
   display: flex;
 }
 

@@ -13,6 +13,10 @@
     font-size: 25px;
     padding: 100px 0 0 81px;
     font-weight: 400;
+
+    &::first-letter {
+      color: $color-2;
+    }
   }
 
   .menu {

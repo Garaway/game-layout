@@ -22,7 +22,11 @@ body {
     font-family: $font-family;
     color: $color-1;
     padding-left: 80px;
-    padding-bottom: 30px;
+    margin: 0 0 30px 0;
+
+    &::first-letter {
+      color: $color-2;
+    }
 
     &-size_h {
       font-size: 120px;
@@ -38,19 +42,21 @@ body {
       color: $color-2;
       text-decoration: none;
       font-weight: 400;
+      transition: 0.2s;
+
+      &:hover {
+        color: $color-1;
+      }
     }
   }
 }
 
-.color-text {
-  color: $color-2;
-}
 
 .head {
   font-family: $font-family;
   width: 100%;
+  padding-bottom: 400px;
   max-width: 1198px;
-  height: 654px;
   background: url("../img/head.png") top/cover no-repeat;
   margin: 0 auto;
 
@@ -59,37 +65,43 @@ body {
     padding: 70px 46px;
     font-size: 50px;
   }
+}
+
+.text-color {
+  color: $color-2;
+}
 
 
-  .list {
-    display: flex;
-    padding: 0 20px;
-    margin-left: 18px;
-    margin-top: -20px;
+.list {
+  display: flex;
+  padding: 0 20px;
+  margin-left: 18px;
+  margin-top: -20px;
 
-    &__item {
-      list-style-type: none;
-      margin-right: 35px;
+  &__item {
+    list-style-type: none;
+    margin-right: 35px;
+  }
 
-      //&:nth-child(2){
-      //  color: $color-1;
-      //  border-bottom: 2px solid $color-2;
-      //}
+  &__link {
+    text-decoration: none;
+    color: $color-2;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.2s;
+
+    &:hover {
+      color: $color-1;
     }
 
-    &__link {
-      text-decoration: none;
-      color: $color-2;
-      font-size: 16px;
-      font-weight: 400;
-
-      &-color {
-        color: $color-1;
-        border-bottom: 2px solid $color-2;
-      }
+    &-active {
+      color: $color-1;
+      border-bottom: 2px solid $color-2;
     }
   }
 }
+
+
 
 
 

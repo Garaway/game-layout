@@ -163,12 +163,15 @@
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 500;
+  transition: 0.2s;
+}
+.features__menu_item:hover {
+  border-bottom: 2px solid #ffc600;
 }
 .features__menu_item-active {
   border-bottom: 2px solid #ffc600;
 }
 .features__gallery {
-  max-width: 1198px;
   display: flex;
 }
 

@@ -39,6 +39,11 @@
       text-transform: uppercase;
       font-size: 12px;
       font-weight: 500;
+      transition: 0.2s;
+    }
+
+    &_item:hover {
+      border-bottom: 2px solid $color-2;
     }
 
     &_item-active {
@@ -47,7 +52,6 @@
   }
 
   &__gallery {
-    max-width: 1198px;
     display: flex;
   }
 

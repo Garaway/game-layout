@@ -79,38 +79,39 @@
       text-align: center;
       padding: 80px 40px;
       font-family: $font-family;
+    }
 
-      &_img {
-        position: relative;
-        width: 57px;
-        height: 57px;
-      }
+    &_section-img {
+      position: relative;
+      width: 57px;
+      height: 57px;
+      padding-bottom: 20px;
+    }
 
-      &_img-gamepad {
-        width: 30px;
-        height: 20px;
-        position: absolute;
-        margin-top: 18px;
-        margin-left: -43px;
-      }
+    &_section-img-gamepad {
+      width: 30px;
+      height: 20px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: -43px;
+    }
 
-      &-title {
-        padding-top: 15px;
-        font-size: 18px;
-        font-family: $font-family-2;
-        font-weight: 400;
-        color: $color-4;
-      }
+    &_section-title {
+      font-size: 18px;
+      font-family: $font-family-2;
+      font-weight: 400;
+      color: $color-4;
+      padding-bottom: 15px;
+    }
 
-      &-text {
-        width: 240px;
-        font-size: 13px;
-        color: $color-3;
-        line-height: normal;
-        margin-top: 15px;
-        font-weight: 400;
-        font-style: italic;
-      }
+    &_section-text {
+      width: 240px;
+      font-size: 13px;
+      color: $color-3;
+      line-height: normal;
+      font-weight: 400;
+      font-style: italic;
+      padding-bottom: 15px;
     }
   }
 }

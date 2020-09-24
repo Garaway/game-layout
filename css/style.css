@@ -88,12 +88,13 @@
   padding: 80px 40px;
   font-family: myriad-pro, sans-serif;
 }
-.about__delineation_section_img {
+.about__delineation_section-img {
   position: relative;
   width: 57px;
   height: 57px;
+  padding-bottom: 20px;
 }
-.about__delineation_section_img-gamepad {
+.about__delineation_section-img-gamepad {
   width: 30px;
   height: 20px;
   position: absolute;
@@ -101,20 +102,20 @@
   margin-left: -43px;
 }
 .about__delineation_section-title {
-  padding-top: 15px;
   font-size: 18px;
   font-family: "Myriad Pro Light";
   font-weight: 400;
   color: #000000;
+  padding-bottom: 15px;
 }
 .about__delineation_section-text {
   width: 240px;
   font-size: 13px;
   color: #9d9d9d;
   line-height: normal;
-  margin-top: 15px;
   font-weight: 400;
   font-style: italic;
+  padding-bottom: 15px;
 }
 
 @font-face {

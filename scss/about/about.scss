@@ -14,29 +14,29 @@
     font-family: $font-family-2;
     margin: 70px 140px;
     line-height: 45px;
+  }
 
-    &-grey {
-      color: $color-3;
-      font-size: 35px;
-      margin-left: 10px;
-    }
+  &__title--grey {
+    color: $color-3;
+    font-size: 35px;
+    margin-left: 10px;
+  }
 
-    &-black {
-      font-size: 70px;
-    }
+  &__title--black {
+    font-size: 70px;
+  }
 
-    &-black::first-letter {
-      color: $color-2;
-    }
+  &__title--black::first-letter {
+    color: $color-2;
+  }
 
-    &::after {
-      content: '';
-      display: block;
-      height: 1px;
-      width: 117px;
-      margin-left: 130px;
-      background: $color-3;
-    }
+  &__title::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 117px;
+    margin-left: 130px;
+    background: $color-3;
   }
 
 
@@ -62,7 +62,7 @@
     }
 
 
-    &_font-weight {
+    &_font--weight {
       font-size: 16px;
       color: $color-4;
       font-style: italic;
@@ -81,14 +81,14 @@
       font-family: $font-family;
     }
 
-    &_section-img {
+    &_section--img {
       position: relative;
       width: 57px;
       height: 57px;
       padding-bottom: 20px;
     }
 
-    &_section-img-gamepad {
+    &_section--img-gamepad {
       width: 30px;
       height: 20px;
       position: absolute;
@@ -96,7 +96,7 @@
       margin-left: -43px;
     }
 
-    &_section-title {
+    &_section--title {
       font-size: 18px;
       font-family: $font-family-2;
       font-weight: 400;
@@ -104,7 +104,7 @@
       padding-bottom: 15px;
     }
 
-    &_section-text {
+    &_section--text {
       width: 240px;
       font-size: 13px;
       color: $color-3;

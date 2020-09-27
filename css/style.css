@@ -34,15 +34,15 @@
   margin: 70px 140px;
   line-height: 45px;
 }
-.about__title-grey {
+.about__title--grey {
   color: #9d9d9d;
   font-size: 35px;
   margin-left: 10px;
 }
-.about__title-black {
+.about__title--black {
   font-size: 70px;
 }
-.about__title-black::first-letter {
+.about__title--black::first-letter {
   color: #ffc600;
 }
 .about__title::after {
@@ -73,7 +73,7 @@
   position: absolute;
   left: 650px;
 }
-.about__description_font-weight {
+.about__description_font--weight {
   font-size: 16px;
   color: #000000;
   font-style: italic;
@@ -88,27 +88,27 @@
   padding: 80px 40px;
   font-family: myriad-pro, sans-serif;
 }
-.about__delineation_section-img {
+.about__delineation_section--img {
   position: relative;
   width: 57px;
   height: 57px;
   padding-bottom: 20px;
 }
-.about__delineation_section-img-gamepad {
+.about__delineation_section--img-gamepad {
   width: 30px;
   height: 20px;
   position: absolute;
   margin-top: 18px;
   margin-left: -43px;
 }
-.about__delineation_section-title {
+.about__delineation_section--title {
   font-size: 18px;
   font-family: "Myriad Pro Light";
   font-weight: 400;
   color: #000000;
   padding-bottom: 15px;
 }
-.about__delineation_section-text {
+.about__delineation_section--text {
   width: 240px;
   font-size: 13px;
   color: #9d9d9d;
@@ -174,7 +174,6 @@
 .features__gallery {
   display: flex;
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -185,35 +184,35 @@ body {
   padding: 0;
 }
 
-.background {
+.main {
   background-color: #222222;
   margin: 0 auto;
   font-weight: 700;
 }
-.background__text {
+.main__text {
   font-family: myriad-pro, sans-serif;
   color: #ffffff;
   padding-left: 80px;
   margin: 0 0 30px 0;
 }
-.background__text::first-letter {
+.main__text::first-letter {
   color: #ffc600;
 }
-.background__text-size_h {
+.main__text-size_h {
   font-size: 120px;
   padding-top: 40px;
 }
-.background__text-size_p {
+.main__text-size_p {
   font-size: 16px;
   font-weight: 400;
 }
-.background__text-link {
+.main__text-link {
   color: #ffc600;
   text-decoration: none;
   font-weight: 400;
   transition: 0.2s;
 }
-.background__text-link:hover {
+.main__text-link:hover {
   color: #ffffff;
 }
 

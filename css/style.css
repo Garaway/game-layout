@@ -130,7 +130,7 @@
   font-style: normal;
 }
 .features {
-  background-color: white;
+  background-color: #ffffff;
   width: 100%;
   max-width: 1198px;
   margin: 0 auto;
@@ -174,6 +174,84 @@
 .features__gallery {
   display: flex;
   flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: myriad-pro, sans-serif;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Myriad Pro Light";
+  src: url("MyriadPro-Light.eot");
+  src: url("MyriadPro-Light.eot?#iefix") format("embedded-opentype"), url("MyriadPro-Light.woff") format("woff"), url("MyriadPro-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.strategic-process {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1198px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-family: "Myriad Pro Light";
+}
+.strategic-process__title {
+  font-size: 40px;
+  padding: 66px 0 0 80px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+.strategic-process__title::first-letter {
+  color: #ffc600;
+}
+.strategic-process__text {
+  width: 1055px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-family: myriad-pro, sans-serif;
+  color: #9d9d9d;
+  font-size: 15px;
+  line-height: 17px;
+  margin-bottom: 45px;
+}
+.strategic-process__text--font-weight {
+  font-size: 14px;
+  color: #000000;
+  font-style: italic;
+}
+.strategic-process__gallery {
+  width: 860px;
+  margin: 0 auto;
+}
+.strategic-process__gallery:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.strategic-process__gallery--position {
+  display: flex;
+}
+.strategic-process__gallery--text {
+  margin: 30px 0 0 35px;
+  font-family: "Myriad Pro Light";
+  font-weight: 400;
+  width: 500px;
+}
+.strategic-process__gallery--h {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.strategic-process__gallery--h::first-letter {
+  font-size: 45px;
+}
+.strategic-process__gallery--font-weight {
+  font-size: 14px;
+  color: #000000;
+  font-style: italic;
+  margin-bottom: 25px;
+}
+.strategic-process__gallery--p {
+  font-size: 14px;
+  width: 500px;
+  color: #9d9d9d;
 }
 
 body {
@@ -256,7 +334,7 @@ body {
 .head__list_link:hover {
   color: #ffffff;
 }
-.head__list_link-active {
+.head__list_link--active {
   color: #ffffff;
   border-bottom: 2px solid #ffc600;
 }

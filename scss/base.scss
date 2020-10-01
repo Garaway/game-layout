@@ -1,6 +1,7 @@
 @import "utils/variables";
 @import "about/about";
 @import "features/features";
+@import "strategic-process/strategic-procces";
 
 
 body {
@@ -23,11 +24,12 @@ body {
     color: $color-1;
     padding-left: 80px;
     margin: 0 0 30px 0;
+
+    &::first-letter {
+      color: $color-2;
+    }
   }
 
-  &__text::first-letter {
-    color: $color-2;
-  }
 
   &__text-size_h {
     font-size: 120px;
@@ -97,7 +99,7 @@ body {
     color: $color-1;
   }
 
-  &__list_link-active {
+  &__list_link--active {
     color: $color-1;
     border-bottom: 2px solid $color-2;
   }

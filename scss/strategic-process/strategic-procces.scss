@@ -1,0 +1,83 @@
+@import "../utils/variables";
+
+.strategic-process {
+  background-color: $color-1;
+  width: 100%;
+  max-width: 1198px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  font-family: $font-family-2;
+
+  &__title {
+    font-size: 40px;
+    padding: 66px 0 0 80px;
+    font-weight: 400;
+    margin-bottom: 26px;
+
+    &::first-letter {
+      color: $color-2;
+    }
+  }
+
+  &__text {
+    width: 1055px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: $font-family;
+    color: $color-3;
+    font-size: 15px;
+    line-height: 17px;
+    margin-bottom: 45px;
+  }
+
+  &__text--font-weight {
+    font-size: 14px;
+    color: $color-4;
+    font-style: italic;
+  }
+
+  &__gallery {
+    width: 860px;
+    margin: 0 auto;
+
+
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &__gallery--position {
+    display: flex;
+  }
+
+  &__gallery--text {
+    margin: 30px 0 0 35px;
+    font-family: $font-family-2;
+    font-weight: 400;
+    width: 500px;
+  }
+
+
+  &__gallery--h {
+    font-size: 30px;
+    margin-bottom: 30px;
+
+    &::first-letter {
+      font-size: 45px;
+    }
+  }
+
+  &__gallery--font-weight {
+    font-size: 14px;
+    color: $color-4;
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+
+  &__gallery--p {
+    font-size: 14px;
+    width: 500px;
+    color: $color-3;
+  }
+
+}

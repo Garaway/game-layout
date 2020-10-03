@@ -1,10 +1,6 @@
 @import "../utils/variables";
 
 .about {
-  width: 100%;
-  max-width: 1198px;
-  margin: 0 auto;
-  background-color: $color-1;
 
   &__text {
     display: flex;

@@ -2,6 +2,7 @@
 @import "about/about";
 @import "features/features";
 @import "strategic-process/strategic-procces";
+@import "service-provided/service-provided";
 
 
 body {
@@ -12,6 +13,13 @@ body {
 * {
   margin: 0;
   padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1198px;
+  margin: 0 auto;
+  background-color: $color-1;
 }
 
 .main {
@@ -61,11 +69,8 @@ body {
 
 .head {
   font-family: $font-family;
-  width: 100%;
   padding-bottom: 400px;
-  max-width: 1198px;
   background: url("../img/head.png") top/cover no-repeat;
-  margin: 0 auto;
 
   &__title {
     color: $color-1;

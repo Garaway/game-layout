@@ -1,0 +1,48 @@
+
+.testimonials {
+  background-color: black;
+  font-family: $font-family;
+
+  &__title {
+    color: $color-1;
+    font-size: 20px;
+    padding: 100px 0 0 80px;
+    font-weight: 400;
+
+    &::first-letter {
+      color: $color-2;
+      font-size: 40px;
+    }
+  }
+
+  &__display {
+    display: flex;
+  }
+
+  &__text {
+    color: $color-1;
+    max-width: 624px;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 65px 0 0 120px;
+  }
+
+  &__text--font-weight {
+    font-style: italic;
+    margin-bottom: 25px;
+  }
+
+  &__img {
+    position: relative;
+    color: $color-1;
+    text-align: center;
+    margin: 0 0 130px 87px;
+  }
+
+  &__img--circle {
+    position: absolute;
+    margin: 3px 0 0 3px;
+  }
+
+
+}

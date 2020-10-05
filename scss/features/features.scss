@@ -6,14 +6,7 @@
   font-family: $font-family-2;
 
   &__title {
-    font-size: 30px;
-    padding: 100px 0 0 80px;
-    font-weight: 400;
-  }
-
-  &__title::first-letter {
-    color: $color-2;
-    font-size: 35px;
+    padding-left: 80px;
   }
 
   &__menu {
@@ -51,5 +44,6 @@
   &__gallery {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 40px;
   }
 }

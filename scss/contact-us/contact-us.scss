@@ -1,3 +1,4 @@
+@import "../utils/variables";
 
 .contact-us {
   font-family: $font-family;
@@ -13,30 +14,12 @@
   &__data {
     background-color: #2046b3;
     width: 100%;
-
-    //&:after {
-    //  content: '';
-    //  display: block;
-    //  height: 1px;
-    //  width: 100%;
-    //  max-width: 412px;
-    //  background: $color-3;
-    //  margin-left: 76px;
-    //  margin-top: 30px;
-    //}
   }
 
   &__title {
-    font-size: 30px;
     padding: 30px 0 0 120px;
-    font-weight: 400;
     color: $color-1;
     margin-bottom: 25px;
-
-    &::first-letter {
-      color: $color-2;
-      font-size: 35px;
-    }
   }
 
   &__input {
@@ -117,7 +100,7 @@
   }
 
   &__information {
-    margin-left: 110px;
+    margin-left: 50px;
     color: $color-1;
   }
 

@@ -7,6 +7,7 @@
 @import "testimonials/testimonials";
 @import "blogs/blog";
 @import "contact-us/contact-us";
+@import 'footer/footer';
 
 
 body {
@@ -24,6 +25,16 @@ body {
   max-width: 1198px;
   margin: 0 auto;
   background-color: $color-1;
+}
+
+.section__title {
+  font-size: 30px;
+  font-weight: 400;
+
+  &:first-letter {
+    color: $color-2;
+    font-size: 35px;
+  }
 }
 
 .main {

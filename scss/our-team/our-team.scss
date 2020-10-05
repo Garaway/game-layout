@@ -1,3 +1,4 @@
+@import "../utils/variables";
 
 .our-team {
   font-family: $font-family-2;
@@ -7,19 +8,13 @@
   }
 
   &__title {
-    font-size: 30px;
     padding: 100px 0 0 80px;
-    font-weight: 400;
-
-    &::first-letter {
-      color: $color-2;
-      font-size: 40px;
-    }
   }
 
   &__text {
+    width: 100%;
     max-width: 624px;
-    margin: 85px 0 0 134px;
+    margin: 85px 0 0 137px;
     color: $color-3;
     font-weight: 400;
     font-family: $font-family;

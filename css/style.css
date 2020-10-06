@@ -75,10 +75,9 @@
   font-style: italic;
 }
 .about__delineation {
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   justify-content: center;
   display: flex;
-  margin-bottom: 50px;
 }
 .about__delineation_section {
   text-align: center;
@@ -190,13 +189,12 @@
 .strategic-process__text {
   width: 100%;
   max-width: 1055px;
-  margin: 0 auto;
+  margin: 0 auto 45px auto;
   font-weight: 400;
   font-family: myriad-pro, sans-serif;
   color: #9d9d9d;
   font-size: 15px;
   line-height: 17px;
-  margin-bottom: 45px;
 }
 .strategic-process__text--font-weight {
   font-size: 14px;
@@ -770,10 +768,6 @@ body {
 .head__list_link--active {
   color: #ffffff;
   border-bottom: 2px solid #ffc600;
-}
-
-.text-color {
-  color: #ffc600;
 }
 
 /*# sourceMappingURL=style.css.map */

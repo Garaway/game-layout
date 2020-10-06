@@ -12,13 +12,12 @@
   &__text {
     width: 100%;
     max-width: 1055px;
-    margin: 0 auto;
+    margin: 0 auto 45px auto;
     font-weight: 400;
     font-family: $font-family;
     color: $color-3;
     font-size: 15px;
     line-height: 17px;
-    margin-bottom: 45px;
   }
 
   &__text--font-weight {

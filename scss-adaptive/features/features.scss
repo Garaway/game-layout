@@ -53,16 +53,36 @@
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
 
   .features {
-
 
     &__gallery {
       display: flex;
       flex-wrap: wrap;
       padding-bottom: 40px;
-      justify-content: center;
+    }
+
+    &__gallery--img {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+
+  .features {
+
+    &__gallery {
+      display: flex;
+      flex-wrap: wrap;
+      padding-bottom: 40px;
+    }
+
+    &__gallery--img {
+      width: 100%;
+      max-width: 599px;
+      object-fit: cover;
     }
   }
 }

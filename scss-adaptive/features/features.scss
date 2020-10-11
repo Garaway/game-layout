@@ -92,6 +92,31 @@
   }
 }
 
+@media (max-width: 425px) {
+
+  .features {
+
+    &__title {
+      text-align: center;
+      padding: 0;
+    }
+
+    &__menu {
+      margin: 0;
+      padding: 0;
+    }
+
+    &__menu_list {
+      display: block;
+    }
+
+    &__menu_link {
+      margin: 20px 0 20px 0;
+      text-align: center;
+    }
+  }
+}
+
 @media (max-width: 320px) {
 
   .features {

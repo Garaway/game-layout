@@ -93,6 +93,23 @@
     max-width: 50%;
   }
 }
+@media (max-width: 425px) {
+  .features__title {
+    text-align: center;
+    padding: 0;
+  }
+  .features__menu {
+    margin: 0;
+    padding: 0;
+  }
+  .features__menu_list {
+    display: block;
+  }
+  .features__menu_link {
+    margin: 20px 0 20px 0;
+    text-align: center;
+  }
+}
 @media (max-width: 320px) {
   .features__gallery--img {
     width: 100%;

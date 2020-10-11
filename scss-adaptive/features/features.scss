@@ -70,13 +70,16 @@
 @media (max-width: 1024px) {
   .features {
     background-color: #ffc600;
+    flex: 0 0 33.333%;
+
 
     &__gallery {
       flex: 0 0 33.333%;
+      max-width: 100%;
     }
 
     &__gallery--img {
-      max-width: 100%;
+      max-width: 33.333%;
     }
   }
 }

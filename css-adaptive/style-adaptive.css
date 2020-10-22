@@ -27,17 +27,40 @@
 .features__title {
   padding-left: 80px;
 }
+@media (max-width: 768px) {
+  .features__title {
+    text-align: center;
+    padding: 0;
+  }
+}
 .features__menu {
   padding: 0 20px 40px 0;
   margin: 20px 0 0 60px;
   font-weight: 400;
 }
+@media (max-width: 768px) {
+  .features__menu {
+    margin: 0;
+    padding: 0;
+  }
+}
 .features__menu_list {
   display: flex;
+}
+@media (max-width: 768px) {
+  .features__menu_list {
+    flex-direction: column;
+  }
 }
 .features__menu_link {
   list-style-type: none;
   margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .features__menu_link {
+    margin: 20px 0 20px 0;
+    text-align: center;
+  }
 }
 .features__menu_item {
   color: #000000;
@@ -50,7 +73,7 @@
 .features__menu_item:hover {
   border-bottom: 2px solid #ffc600;
 }
-.features__menu_item-active {
+.features__menu_item--active {
   border-bottom: 2px solid #ffc600;
 }
 .features__gallery {
@@ -58,64 +81,30 @@
   flex-wrap: wrap;
   padding-bottom: 40px;
 }
-.features__gallery--img {
+.features__gallery-img {
   max-width: 100%;
 }
-
 @media (max-width: 1200px) {
-  .features {
-    background-color: aquamarine;
-  }
-  .features__gallery {
-    max-width: 100%;
-    flex: 0 0 33.333%;
-  }
-  .features__gallery--img {
-    width: 100%;
-    max-width: 25%;
+  .features__gallery-img {
+    width: 25%;
   }
 }
 @media (max-width: 1024px) {
-  .features {
-    background-color: #ffc600;
-  }
-  .features__gallery--img {
-    width: 100%;
-    max-width: 33.333%;
+  .features__gallery-img {
+    width: 33.333%;
   }
 }
 @media (max-width: 640px) {
-  .features {
-    background-color: #2046b3;
-  }
-  .features__gallery--img {
-    width: 100%;
-    max-width: 50%;
-  }
-}
-@media (max-width: 425px) {
-  .features__title {
-    text-align: center;
-    padding: 0;
-  }
-  .features__menu {
-    margin: 0;
-    padding: 0;
-  }
-  .features__menu_list {
-    display: block;
-  }
-  .features__menu_link {
-    margin: 20px 0 20px 0;
-    text-align: center;
+  .features__gallery-img {
+    width: 50%;
   }
 }
 @media (max-width: 320px) {
-  .features__gallery--img {
+  .features__gallery-img {
     width: 100%;
-    max-width: 100%;
   }
 }
+
 body {
   margin: 0;
   padding: 0;
